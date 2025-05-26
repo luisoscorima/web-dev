@@ -1,0 +1,68 @@
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "nombre telefono"
+        "asunto asunto"
+        "aplicativo descripcion"
+        "tipo descripcion"
+        "prioridad descripcion"
+        ". enviar";
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.form-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-grid label {
+    font-weight: bold;
+}
+
+.form-grid .nombre {
+    grid-area: nombre;
+}
+.form-grid .telefono {
+    grid-area: telefono;
+}
+.form-grid .asunto {
+    grid-area: asunto;
+}
+.form-grid .aplicativo {
+    grid-area: aplicativo;
+}
+.form-grid .descripcion {
+    grid-area: descripcion;
+}
+.form-grid .tipo {
+    grid-area: tipo;
+}
+.form-grid .prioridad {
+    grid-area: prioridad;
+}
+.form-grid .submit-btn {
+    grid-area: enviar;
+    justify-self: end;
+}
+
+.form-grid input,
+.form-grid select,
+.form-grid textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f0f2f5;
+}
+
+.form-grid textarea {
+    height: 150px;
+    resize: vertical;
+}
