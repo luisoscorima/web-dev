@@ -4,6 +4,7 @@ import pe.edu.utp.isi.dwi.proyectodwi.dao.SolicitudDAO;
 import pe.edu.utp.isi.dwi.proyectodwi.dto.TicketDetailDTO;
 
 import jakarta.servlet.*;
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
 import java.io.IOException;
 

@@ -16,6 +16,10 @@ public class SolicitudDAO {
         this.conn = conn;
     }
 
+    public SolicitudDAO() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     public List<TicketDTO> listarTicketsPorColaborador(int colaboradorId) throws SQLException {
         String sql = "SELECT s.id_solicitud, s.asunto, s.estado, s.prioridad, s.fecha_creacion, a.es_coordinador " +
                  "FROM solicitud s " +
@@ -97,5 +101,21 @@ public class SolicitudDAO {
                 throw new SQLException("No se pudo obtener el ID generado para la solicitud.");
             }
         }
+    }
+
+    public int contarTotalTickets() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public int contarTicketsAsignados() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public List<Solicitud> listarUltimosTickets(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public Solicitud obtenerTicketMasReciente() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
