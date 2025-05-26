@@ -10,7 +10,7 @@
 <body>
     <!-- Barra superior -->
     <header class="top-bar">
-        <div class="logo">123 Digital</div>
+        <div class="logo">123Digit@l</div>
         <nav class="top-nav">
             <a href="#" class="nav-item">Inicio</a>
             <a href="#" class="nav-item">Notificaciones</a>
