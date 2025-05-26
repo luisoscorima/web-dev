@@ -1,4 +1,4 @@
-package pe.edu.utp.isi.dwi.proyectodwi.servlet;
+package pe.edu.utp.isi.dwi.proyectodwi.controller;
 
 
 import java.io.IOException;
