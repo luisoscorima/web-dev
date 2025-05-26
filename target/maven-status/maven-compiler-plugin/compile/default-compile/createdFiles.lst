@@ -6,4 +6,3 @@ pe\edu\utp\isi\dwi\proyectodwi\servlet\LogoutServlet.class
 pe\edu\utp\isi\dwi\proyectodwi\resources\JakartaEE10Resource.class
 pe\edu\utp\isi\dwi\proyectodwi\JakartaRestConfiguration.class
 pe\edu\utp\isi\dwi\proyectodwi\model\User.class
-pe\edu\utp\isi\dwi\proyectodwi\filters\filters.class
