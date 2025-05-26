@@ -1,4 +1,3 @@
-
 package pe.edu.utp.isi.dwi.proyectodwi.model;
 
 public class Cliente {
