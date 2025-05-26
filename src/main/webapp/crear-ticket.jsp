@@ -6,7 +6,7 @@
     <title>Vista Cliente - 123 Digital</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/cliente-vista-styles.css">
-    <link rel="stylesheet" href="../css/estilos_solicitud.css">
+    <link rel="stylesheet" href="css/estilos_solicitud.css">
 </head>
 <body>
 
@@ -48,7 +48,7 @@
     <div class="container mt-5 mb-5">
         <h2 class="mb-3">Registrar nueva solicitud</h2>
         <p class="text-muted">Los campos obligatorios están marcados con un <span class="text-danger">*</span></p>
-        <form action="../RegistrarSolicitudServlet" method="post" id="formularioSolicitud">
+        <form action="/RegistrarSolicitudServlet" method="post" id="formularioSolicitud">
             <div class="row mb-3">
                 <div class="col-md-6">
                     <label class="form-label">Nombre <span class="text-danger">*</span></label>

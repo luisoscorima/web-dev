@@ -7,9 +7,9 @@ import pe.edu.utp.isi.dwi.proyectodwi.model.Solicitud;
 import pe.edu.utp.isi.dwi.proyectodwi.model.Colaborador;
 import pe.edu.utp.isi.dwi.proyectodwi.controller.ConexionDB;
 
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.*;
 import java.io.IOException;
 import java.sql.Connection;
 import java.util.List;
