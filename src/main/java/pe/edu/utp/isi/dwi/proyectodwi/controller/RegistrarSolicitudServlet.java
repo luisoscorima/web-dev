@@ -3,15 +3,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
  */
 
-package pe.edu.utp.isi.dwi.proyectodwi.servlet;
+package pe.edu.utp.isi.dwi.proyectodwi.controller;
 
 import pe.edu.utp.isi.dwi.proyectodwi.controller.ConexionDB;
 import pe.edu.utp.isi.dwi.proyectodwi.dao.SolicitudDAO;
 import pe.edu.utp.isi.dwi.proyectodwi.model.Solicitud;
 
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.*;
 import java.io.IOException;
 import java.sql.Connection;
 
