@@ -5,17 +5,18 @@ import pe.edu.utp.isi.dwi.proyectodwi.dao.SolicitudDAO;
 import pe.edu.utp.isi.dwi.proyectodwi.dao.ColaboradorDAO;
 import pe.edu.utp.isi.dwi.proyectodwi.model.Solicitud;
 import pe.edu.utp.isi.dwi.proyectodwi.model.Colaborador;
-import pe.edu.utp.isi.dwi.proyectodwi.controller.ConexionDB;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
 import java.io.IOException;
 import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.List;
 
 @WebServlet("/AdministradorDashboardServlet")
 public class AdministradorDashboardServlet extends HttpServlet {
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         try {
@@ -37,8 +38,7 @@ public class AdministradorDashboardServlet extends HttpServlet {
 
             request.getRequestDispatcher("administrador-vista.jsp").forward(request, response);
 
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (ServletException | IOException | SQLException e) {
             response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Error en dashboard admin");
         }
     }
