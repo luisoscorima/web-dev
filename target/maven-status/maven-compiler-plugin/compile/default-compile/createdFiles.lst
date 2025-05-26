@@ -1,6 +1,7 @@
 pe\edu\utp\isi\dwi\proyectodwi\servlet\LoginServlet.class
 pe\edu\utp\isi\dwi\proyectodwi\servlet\RegisterServlet.class
 pe\edu\utp\isi\dwi\proyectodwi\dao\UserDAO.class
+pe\edu\utp\isi\dwi\proyectodwi\dao\ConexionDB.class
 pe\edu\utp\isi\dwi\proyectodwi\servlet\LogoutServlet.class
 pe\edu\utp\isi\dwi\proyectodwi\resources\JakartaEE10Resource.class
 pe\edu\utp\isi\dwi\proyectodwi\JakartaRestConfiguration.class
