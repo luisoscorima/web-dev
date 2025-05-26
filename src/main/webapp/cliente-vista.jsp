@@ -15,7 +15,7 @@
             <a href="#" class="nav-item">Inicio</a>
             <a href="#" class="nav-item">Notificaciones</a>
             <a href="#" class="nav-item">Perfil</a>
-            <a href="#" class="nav-item">Cerrar Sesión</a>
+            <a href="index.jsp" class="nav-item">Cerrar Sesión</a>
         </nav>
     </header>
 
