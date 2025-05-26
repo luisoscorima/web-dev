@@ -3,13 +3,13 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Bienvenido a 123 Digital</title>
+    <title>Bienvenido a 123Digit@l</title>
     <link rel="stylesheet" type="text/css" href="css/index-styles.css">
 </head>
 <body>
     
     <div class="login-container">
-        <h1>Bienvenido a 123 Digital</h1>
+        <h1>Bienvenido a 123Digit@l</h1>
         <p>Accede para gestionar tus solicitudes de soporte, desarrollo y capacitación.</p>
         
         <% if (request.getAttribute("errorMessage") != null) { %>
