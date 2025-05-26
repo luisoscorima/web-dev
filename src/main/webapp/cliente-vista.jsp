@@ -70,7 +70,7 @@
                         <td>Soporte</td>
                         <td><span class="prioridad-alta">Alta</span></td>
                         <td><span class="estado-pendiente">Pendiente</span></td>
-                        <td>14/11/2022</td>
+                        <td>14/11/2024</td>
                     </tr>
                     <tr>
                         <td><input type="checkbox" name="ticket" value="002"> TKT-002</td>
@@ -78,7 +78,7 @@
                         <td>Desarrollo</td>
                         <td><span class="prioridad-media">Media</span></td>
                         <td><span class="estado-progreso">En Progreso</span></td>
-                        <td>15/11/2022</td>
+                        <td>15/11/2024</td>
                     </tr>
                     <tr>
                         <td><input type="checkbox" name="ticket" value="003"> TKT-003</td>
@@ -86,7 +86,7 @@
                         <td>Soporte</td>
                         <td><span class="prioridad-alta">Alta</span></td>
                         <td><span class="estado-pendiente">Pendiente</span></td>
-                        <td>16/11/2022</td>
+                        <td>16/11/2024</td>
                     </tr>
                 </tbody>
             </table>
