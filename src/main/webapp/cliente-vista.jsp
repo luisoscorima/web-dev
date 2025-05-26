@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Vista Cliente - 123 Digital</title>
+    <title>Vista Cliente - 123Digit@l</title>
     <link rel="stylesheet" type="text/css" href="css/cliente-vista-styles.css">
 </head>
 <body>
