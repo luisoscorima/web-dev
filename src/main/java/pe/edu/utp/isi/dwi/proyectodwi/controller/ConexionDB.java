@@ -1,4 +1,4 @@
-package pe.edu.utp.isi.dwi.proyectodwi.dao;
+package pe.edu.utp.isi.dwi.proyectodwi.controller;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
