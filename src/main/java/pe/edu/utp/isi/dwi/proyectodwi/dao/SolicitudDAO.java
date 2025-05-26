@@ -45,7 +45,7 @@ public class SolicitudDAO {
         }
     }
 
-    // NUEVO MÉTODO para registrar ticket y devolver el ID generado
+    // MÉTODO para registrar ticket y devolver el ID generado
     public int registrarSolicitudYRetornarId(Solicitud s, int idCliente) throws SQLException {
         String sql = "INSERT INTO solicitud (asunto, motivo, prioridad, id_tipoSolicitud, id_cliente, id_aplicacion) VALUES (?, ?, ?, ?, ?, ?)";
         try (PreparedStatement ps = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
