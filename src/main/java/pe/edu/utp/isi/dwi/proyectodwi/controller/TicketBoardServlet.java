@@ -3,8 +3,8 @@ package pe.edu.utp.isi.dwi.proyectodwi.controller;
 import pe.edu.utp.isi.dwi.proyectodwi.dao.SolicitudDAO;
 import pe.edu.utp.isi.dwi.proyectodwi.dto.TicketDTO;
 
-import javax.servlet.*;
-import javax.servlet.http.*;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
 import java.io.IOException;
 import java.util.List;
 
