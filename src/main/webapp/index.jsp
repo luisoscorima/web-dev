@@ -36,9 +36,6 @@
             <a href="forgot-password.jsp">Forgot password?</a>
         </div>
         
-        <div class="register-link">
-            <p>¿No tienes cuenta? <a href="register.jsp">Regístrate aquí</a></p>
-        </div>
     </div>
 </body>
 </html>
